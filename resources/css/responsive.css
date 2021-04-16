@@ -1,0 +1,111 @@
+
+/* Media Query For Desktop */
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+}
+/* End  Media Query For Desktop */
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 57.5%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-menu span {
+        display: inline-block;
+    }
+    /*  TESTIMONIAL SECTION */
+    .clients-img {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clients-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    /* CONTACT SECTION */
+    .inner-contact form {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    html {
+        font-size: 62.5%;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .col:nth-child(3) {
+        margin-left: 0;
+    }
+    /* SERVICES SECTION ( height problem of tha box) */
+    #services_section .box {
+        height: 279px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .little-description {
+        width: 90%;
+    }
+    .hero-text-box h1 {
+        font-size: 3.2rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+    }
+    /* FOOTER SECTION */
+    .inner-footer ul li {
+        margin: 0 0.5rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .hero-text-box h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    /* PORTFOLIO SECTION */
+    .portfolio-filter ul li {
+        margin: 0 0.5rem;
+    }
+    .portfolio-filter .btn {
+        width: 7rem;
+        padding: 0.7rem 1rem;
+    }
+    /* CONTACT SECTION */
+    .inner-contact form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .portfolio-filter .btn-icon {
+       margin-top: 1rem;
+    }
+}
